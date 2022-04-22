@@ -1,0 +1,9 @@
+document.querySelector('.popupmenu').style.display='none';
+havepop.addEventListener("click",function(){
+    if(document.querySelector('.popupmenu').style.display=='none'){
+        document.querySelector('.popupmenu').style.display='block';
+    }
+    else{
+        document.querySelector('.popupmenu').style.display='none'
+    }
+})

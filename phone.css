@@ -1,0 +1,16 @@
+@media screen and (max-width:650px) {
+    .content{
+        height: 2000px;
+        background-color: rgb(20, 15, 15);
+    }
+    .maincontainer{
+        height: 4000px;
+    }
+    #se{
+        display: none;
+    }
+    .upload-icons{
+        width: 1000px;
+        margin-right: 50px;
+    }
+}

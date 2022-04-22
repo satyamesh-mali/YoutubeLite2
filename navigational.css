@@ -1,0 +1,90 @@
+.navigational{
+    height: 60px;
+    width: 100vw;
+    background-color: rgb(20, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.bar{
+    width: 25px;
+    height: 25px;
+    margin-left: 6px;
+}
+.search-bar{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    
+}
+.upload-icons{
+    width: 300px;
+    height: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#youtube-icon1{
+    width: 43px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navigational h2{
+    color: white;
+}
+#bar2{
+    width: 17px;
+    height: 17px;
+}
+input{
+    text-align: center;
+    width: 19vw;
+    height: 5vh;
+}
+.line{
+    width: 100vw;
+    height: 4px;
+    background-color: white;
+}
+
+.upload-icons img{
+    width: 28px;
+    height: 27px;
+    margin-top: 9px;
+    margin-left: 16px;
+}
+#se{
+    background-color: white;
+    color: black;
+}
+.load{
+    width: 100vw;
+    height: 1vh;
+    background-color: white;
+    background-color: rgb(22, 19, 19);
+    z-index: 10;
+    position: fixed;
+}
+.loadbar{
+    width: 0vw;
+    height: 1vh;
+    background-color: red;
+    animation: loading 5s linear;
+    z-index: 3;
+}
+@keyframes loading {
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 100vw;
+        background-color: black;
+    }
+}
